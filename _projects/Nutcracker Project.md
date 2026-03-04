@@ -3,9 +3,9 @@ layout: project
 title: Nutcracker Problem
 description: Nutcracker portfolio
 technologies: [MATLAB, python]
-image: assets/images/Nutcracker part 1.png 
-        assets/images/Nutcracker part 2.png
-
+image: assets/images/Nutcracker part 1.png
+        assets/images/Nutcracker part 2.pnggit add .
+git commit -m "<Commit Message>"
 ---
 
 Problem Statement and Objective:
@@ -54,6 +54,6 @@ Usability:
     Mechanical Advantage = 1090N/275N = 4
 
     The design is usable because of the mechanical advantage, which is greater than 1. Though longer handles could improve the comfort of cracking the macademia nut, 33.60mm as the length of the handle with 550N of max grip is enough to crack the nut, making the design overall usable.
-    
+
 
 
