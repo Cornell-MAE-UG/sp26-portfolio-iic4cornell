@@ -3,8 +3,8 @@ layout: project
 title: Nutcracker Problem
 description: Nutcracker portfolio
 technologies: [MATLAB, python]
-image: /assets/images/Nutcracker_part_1.png 
-        /assets/images/Nutcracker_part_2.png
+image:   -/assets/images/Nutcracker_part_1.png 
+        - /assets/images/Nutcracker_part_2.png
 
 ---
 
