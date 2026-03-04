@@ -30,13 +30,21 @@ Assumptions:
 Calculations/Thought Process:
     1. Load needed: 222.18kg
         F=(222.18kg)(9.81m/s^2) = 2179.5858N
+
         F=2180N
+
         Fc=2180/2 = 1090N
+
     2. Max grip strenth: 550N
+
         Fhandle = 550/2 = 275N
+
     3. Sum of moments about A:
+
         (8.5mm)(1090N)-(L2)(275N) = 0
+
         (1090N)(8.5mm) = 275L2
+        
         L2 = 33.69mm
     
     Therefore, the Length of the handle should be at least 33.69mm.
