@@ -4,8 +4,8 @@ title: Nutcracker Problem
 description: Nutcracker portfolio
 technologies: [MATLAB, python]
 image: assets/images/Nutcracker part 1.png
-        assets/images/Nutcracker part 2.pnggit add .
-git commit -m "<Commit Message>"
+        assets/images/Nutcracker part 2.png
+
 ---
 
 Problem Statement and Objective:
