@@ -4,6 +4,7 @@ title: Nutcracker Problem
 description: Nutcracker portfolio
 technologies: [MATLAB, python]
 image: assets/images/PSET 4_260303_211838_4.jpg
+image: assets/images/PSET 4_260303_225927_5.jpg
 ---
 
 Problem Statement and Objective:
