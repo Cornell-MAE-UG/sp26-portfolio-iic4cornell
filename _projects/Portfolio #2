@@ -3,7 +3,7 @@ layout: project
 title: Portfolio 2 Problem
 description: PSET 4 Additional Problem 2
 technologies: [MATLAB, python]
-image:  
+image:  assets/images/nutcracker part 2.jpg
 
 ---
 
@@ -18,68 +18,39 @@ Problem Statement and Objective:
     c) Present your final design in an image or drawing.
 
 
-Constraints and Input Parameters:
+Constraints and Input Parameters/Assumptions:
 
-    Size for Macademia Nuts: 17mm
+    L = 120mm = 0.012m because it is around the average length for a nutcracker handle
 
-    Load Needed to Crack a Macademia Nut: 222.18kg
-
-    Max Grip Strength: 550N
+    F = 50N
 
 
 Plan:
 
-    1. FBD of nut cracker
+    1. FBD of nutcracker handle
 
-    2. FBD of half of the nut cracker
+    2. 0.02L constraint
+    
+    3. I = (bh^3)/12
 
-    3. Calculate Fc based on load needed to crack nut
-
-    4. Sum of the moments about point A to find L2
+    4. S = (FL^3)/(3EI)
 
 
-Assumptions:
 
-    1. For simplification, L1, which is the length from the joint to the location of Fc, was set to be the radius of the macademia nut.
 
-    2. The load needed to crack the nut was multiplied by the acceleration due to gravity and rounded to be around 2180N. Fc was then obtained by dividing this by 2 because there are 2 handles.
-
-    3. Force of the handle is equally distributed across the two handles, so the max grip strength can be divided by 2.
 
 
 Calculations/Thought Process:
 
-    1. Load needed: 222.18kg
+    1. 0.02L = (0.02)(120mm) = 2.4mm
 
-        F=(222.18kg)(9.81m/s^2) = 2179.5858N
+    2. I = (bh^3)/12 = (6(10^3))/12 = 500mm^4
 
-        F=2180N
+    3. S = (FL^3)/(3EI) = ((50)(0.12)^3)/(3(69*10^9)(500*10^-12)) = 0.835mm
 
-        Fc=2180/2 = 1090N
+    4. Because S = 0.835 < 2.4mm, design is acceptable
 
-    2. Max grip strenth: 550N
-
-        Fhandle = 550/2 = 275N
-
-    3. Sum of moments about A:
-
-        (8.5mm)(1090N)-(L2)(275N) = 0
-
-        (1090N)(8.5mm) = 275L2
-        
-        L2 = 33.69mm
-    
-    Therefore, the Length of the handle should be at least 33.69mm.
-
-
-Usability:
-
-    Mechanical Advantage = Fc/Fhandle
-
-    Mechanical Advantage = 1090N/275N = 4
-    
-
-    The design is usable because of the mechanical advantage, which is greater than 1. Though longer handles could improve the comfort of cracking the macademia nut, 33.60mm as the length of the handle with 550N of max grip is enough to crack the nut, making the design overall usable.
+    5. Therefore, design parameters: 6mm x 10mm x 120mm
 
 
 
